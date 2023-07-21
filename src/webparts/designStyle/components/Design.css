@@ -1,0 +1,393 @@
+/* .Hsec {
+  width: 100%;
+  background-color: rgba(175, 172, 172, 0.503);
+}
+.container {
+  margin: 0 3rem;
+}
+.hflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0px;
+}
+.logo {
+  width: 50%;
+}
+.logo h1 {
+  font-size: 25px;
+  color: white;
+}
+.list {
+  width: 50%;
+}
+.list ul {
+  display: flex;
+}
+.list ul li {
+  display: flex;
+  list-style-type: none;
+  font-size: 17px;
+  font-weight: 600;
+  margin-right: 16px;
+  color: white;
+}
+.list ul li:hover {
+  color: orange;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.Hvideo {
+  background-image: url(../assets/download.jpeg);
+  width: 100%;
+  height: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bannercontent {
+  padding: 20px 0px;
+  width: 50%;
+}
+.hello {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.welcome {
+  color: white;
+  font-size: 36px;
+  font-weight: 800;
+}
+.Bpara {
+  color: white;
+  font-size: 17px;
+}
+.Bpara span {
+  color: aqua;
+}
+.Bbtn {
+  background-color: #a12c2f !important;
+  color: white !important;
+  border-radius: 30px !important;
+  padding: 10px 20px !important;
+  margin-top: 30px !important;
+}
+.meeting {
+  background-image: url(../assets/meetings-bg.jpg);
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Hmeet h4 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.meeting1 {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.cardflex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px 0px;
+}
+.card1 {
+  width: 20%;
+  background-color: white;
+  padding: 30px;
+  height: 35%;
+  border-radius: 20px;
+}
+.hmeet {
+  font-size: 25px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+.ulmeet {
+  padding: 0px !important;
+}
+.ulmeet li {
+  list-style-type: none;
+  font-size: 18px;
+  padding: 10px 0px;
+  font-weight: 600;
+}
+.Mbtn {
+  background-color: #a12c2f !important;
+  color: white !important;
+  border-radius: 30px !important;
+  margin-top: 20px !important;
+  width: 100%;
+}
+.meetbtn {
+  text-align: center;
+}
+.cardimg,
+.cardimg2,
+.cardimg3,
+.cardimg4 {
+  position: relative;
+}
+
+.dollar,
+.dollar3 {
+  position: absolute;
+  top: 590px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.dollar2 {
+  position: absolute;
+  top: 930px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 20px;
+}
+.dollar4 {
+  position: absolute;
+  top: 950px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.dollar p,
+.dollar2 p,
+.dollar3 p,
+.dollar4 p {
+  margin: 0;
+  padding: 10px;
+  font-weight: 700;
+}
+.calflex {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.month {
+  width: 15%;
+}
+.mcon {
+  width: 70%;
+}
+.month span {
+  color: #a12c2f;
+  font-size: 16px;
+  font-weight: 600;
+}
+.month h6 {
+  margin: 0;
+  font-size: 20px;
+  padding: 10px 0px;
+}
+.mcon h6 {
+  font-size: 20px;
+  margin: 0;
+  padding-top: 20px;
+}
+.mcon p {
+  font-weight: 600;
+}
+.lect {
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+.apply {
+  background-image: url(../assets/apply-bg.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.applyflex {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.degree {
+  width: 50%;
+  padding: 20px;
+}
+.acc {
+  width: 50%;
+  padding: 20px;
+}
+.red,
+.yellow {
+  padding: 30px;
+  margin: 30px 0px;
+  background-color: rgba(250, 250, 250, 0.15);
+}
+.red h4,
+.yellow h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: white;
+}
+.red p,
+.yellow p {
+  color: #ffffff;
+  font-size: 17px;
+}
+.redbtn {
+  background-color: #a12c2f !important;
+  color: #ffffff !important;
+  border-radius: 20px !important;
+}
+.greenbtn {
+  background-color: #f5a425 !important;
+  color: #ffffff !important;
+  border-radius: 20px !important;
+}
+.few {
+  background-image: url(../assets/facts-bg.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fewflex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 50px 0px;
+}
+.Hfew h1 {
+  color: #ffffff;
+  font-size: 40px;
+}
+.fewhead {
+  margin: 10px;
+}
+.boxflex {
+  display: flex;
+  justify-content: space-between;
+}
+.box94 {
+  text-align: center;
+  background-color: rgba(250, 250, 250, 0.15);
+  border-radius: 20px;
+  padding: 20px 30px;
+  margin: 15px 0;
+  width: 37%;
+}
+.boxflex2 {
+  display: flex;
+  justify-content: space-between;
+}
+.box94 h1 {
+  color: #f5a425;
+  font-size: 37px;
+  margin: 0;
+}
+.box94 p {
+  color: #ffffff;
+  font-size: 20px;
+}
+.fewimg {
+  width: 76%;
+  border-radius: 20px;
+}
+.imgcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.form {
+  background-image: url(../assets/meetings-bg.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.formflex {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 60px 0px;
+}
+.formcon {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  width: 60%;
+  margin-top: 30px;
+}
+.formnav {
+  width: 18%;
+  background-color: #a12c2f;
+  padding: 20px;
+  text-align: left;
+  border-radius: 20px;
+  margin-left: 40px;
+}
+.num p {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+.num h5 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.formbtn {
+  background-color: #a12c2f !important;
+  color: #ffffff !important;
+  border-radius: 20px !important;
+  margin-top: 30px !important;
+}
+.MuiInputBase-input {
+  padding: 15px 20px !important;
+
+  background-color: #f7f7f7;
+  height: 35px !important;
+}
+
+.MuiOutlinedInput-multiline {
+  width: 240%;
+  margin-top: 20px;
+}
+.MuiInputLabel-outlined {
+  padding-top: 40px;
+}
+input[type="text" i] {
+  border: none !important;
+}
+.MuiOutlinedInput-root {
+  margin-right: 10px;
+}
+.MuiFormLabel-root {
+  border-radius: 20px !important;
+}
+.MuiOutlinedInput-root {
+  border-radius: 17px !important;
+}
+.imgcon {
+  position: relative;
+}
+.videoicon {
+  position: absolute;
+  left: 970px;
+  top: 2380px;
+}
+.videocon {
+  font-size: 60px !important;
+  color: #ffffff;
+} */
